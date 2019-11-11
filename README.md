@@ -21,6 +21,12 @@ These build instructions assume you have a Linux build environment with:
 
 ## Build
 
+Download modules before the make command:
+
+```bash
+go mod download
+```
+
 To make the binary, just run:
 
 ```bash
